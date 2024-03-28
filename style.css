@@ -1,5 +1,19 @@
-nav a {
-color: #D9601E;
-text-decoration: none;
+* {margin: 0;
+padding: 0;
 }
-nav li{list-style-type: none;}
+#background-home {
+    background-image: url("imagens livro/imagem\ home\ sem\ titulo.remini-enhanced-fundo\ branco.remini-enhanced\ fundo\ branco.jpg");
+    background-position:0%,100%;
+    background-repeat: no-repeat;
+    background-size: 750px, 750px; 
+}
+nav a {
+color: black;
+text-decoration: none;
+font-style: normal;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
