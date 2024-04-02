@@ -4,7 +4,22 @@ padding: 0px;
 
 p {
     font-size: 20px;
+    margin: 10px;
 }
+header {
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+h1 {
+margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
 #background-home {
     background-image: url("imagens livro/backgroundpeb.png");
     background-position:0%,100%;
@@ -68,6 +83,7 @@ a {
     text-decoration: none;
 
 }
+
 
 footer {
     padding: 40px;
