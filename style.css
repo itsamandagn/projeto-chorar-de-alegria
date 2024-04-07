@@ -4,25 +4,35 @@ padding: 0px;
 
 p {
     font-size: 20px;
-    margin: 10px;
 }
-header {
+header a {
     font-size: 30px;
     font-weight: bolder;
-    
+    display: inline;
 }
 header a:hover{
-    color: #F2AF5C;
+    color: #750000;
 }
 
 h1 {
 margin: 10px;
+
 }
 
 h2 {
     margin: 10px;
 }
-
+li {
+    font-size: 20px;
+}
+.lista-comprar {
+    font-size: 20px;
+    margin: 10px;
+}
+.lista-gostar {
+    font-size: 20px;
+    margin: 10px;
+}
 #background-home {
     background-image: url("imagens livro/backgroundpeb.png");
     background-position:0%,100%;
@@ -32,6 +42,15 @@ h2 {
     opacity: 0,8;
     z-index: -1;
 }
+
+nav {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    bottom: 0%;
+
+}
+
 nav a {
 color: black;
 text-decoration: none;
@@ -40,12 +59,17 @@ font-size: 70px;
 overflow: hidden;
 display: block;
 text-align: right;
-margin-right: 3px;
+margin-right: 0,5px;
+position: relative;
 }
 
 
 #resenha {
     background-color: rgba(255,255,166,0.5);
+    animation-name: menu;
+    animation-duration: 3s;
+
+
 }
 #resenha:hover {
     font-size: 90px;
@@ -53,6 +77,10 @@ margin-right: 3px;
 
 #ilustracoes{
     background-color:rgba(255,180,191,0.5);
+    animation-name: menu;
+    animation-duration: 3s;
+    
+
 }
 
 #ilustracoes:hover {
@@ -60,6 +88,9 @@ margin-right: 3px;
 }
 #autoras {
     background-color: rgba(255, 179, 71, 0.5);
+    animation-name: menu;
+    animation-duration: 3s;
+
 }
 
 #autoras:hover {
@@ -68,6 +99,8 @@ margin-right: 3px;
 
 #ondecomprar{
     background-color: rgba(71, 255, 179,0.5);
+    animation-name: menu;
+    animation-duration: 3s;
 
 }
 
@@ -77,20 +110,69 @@ margin-right: 3px;
 
 #youmightlike {
     background-color: rgba(117,199,255,0.5);
+    animation-name: menu;
+    animation-duration: 3s;
 
 }
+
 #youmightlike:hover{
     font-size: 90px;
+
 }
 
 #aboutme {
     background-color:rgba(216,124,250,0.5);
-
+    animation-name: menu;
+    animation-duration: 3s;
 }
 
 #aboutme:hover {
     font-size: 90px;
 }
+
+@keyframes menu {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    }
+    
+}
+  
+.texto-principal {
+    display:inline-block;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+aside {
+    margin: 10px;
+}
+.aboutme {
+    margin: 10px;
+}
+
+.lista1 { background-color: rgba(255,255,166,0.5);
+}
+.lista2 { background-color:rgba(255,180,191,0.5);
+}
+.lista3 {  background-color: rgba(255, 179, 71, 0.5);
+}
+.lista4 {  background-color: rgba(71, 255, 179,0.5);
+}
+.lista5 { background-color: rgba(117,199,255,0.5);
+}
+.lista6 {background-color: rgba(216,124,250,0.5);
+}
+.lista7 {background-color: rgba(255,255,166,0.5);
+}
+.lista8{background-color:rgba(255,180,191,0.5);}
 
 header a {
     color: black;
@@ -98,47 +180,105 @@ header a {
 }
 
 
-aside {
-    position: relative;
-}
 
 
 a {text-decoration: none;
   color: black;
+  font-size: 20px;
 
 }
 
+.autoras {
+    margin-bottom: 30px;
+    margin: 10px;
+}
+.ilustradora {
+    color: black;
+    text-decoration: underline;
+}
+.ilustradora:hover{
+ color:#750000;
 
-footer {
-    padding: 40px;
-    bottom: 0;
+ text-decoration:underline;
+}
+
+
+.footer {
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    width: 100%;
+    padding: 5px;
+    bottom: 0%;
     position:relative;
-    display: flex;
+    display:inline-flex;
     justify-content: center;
-}
+    z-index: 1;
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    
 }
-
+.link-footer{
+    font-size: 20px;
+}
 footer li {
-    margin-bottom: 10px;
+    font-size: 15px;
+    list-style: none;
+    display:inline-flex;
 }
-
 
 footer img {
     width: 30px;
     height: auto;
-    margin-right: 5px;
   
 }
 
-.texto-principal {
-    color: black;
-    border:5px;
-    border-color: black;
-    border-radius: 5px;
-    padding: 10px;
+
+.imagens-container {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    
+}
+
+.imagem1:hover {
+    height: 600px;
+    width: 600px;
+}.imagem2:hover {
+    height: 600px;
+    width: 600px;
+}.imagem3:hover {
+    height: 600px;
+    width: 600px;
+}.imagem4:hover {
+    height: 600px;
+    width: 600px;
+}.imagem5:hover {
+    height: 600px;
+    width: 600px;
+}.imagem6:hover {
+    height: 600px;
+    width: 600px;
+}.imagem7:hover {
+    height: 600px;
+    width: 600px;
+}.imagem8:hover {
+    height: 600px;
+    width: 600px;
+}.imagem9:hover {
+    height: 600px;
+    width: 600px;
+}
+.imagem10:hover {
+    height: 600px;
+    width: 600px;
+}.imagem11:hover {
+    height: 600px;
+    width: 600px;
+}.imagem12:hover {
+    height: 600px;
+    width: 600px;
 }
