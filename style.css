@@ -9,9 +9,12 @@ header a {
     font-size: 30px;
     font-weight: bolder;
     display: inline;
+    margin-left: 200px;
+    color:#750000;
+    text-decoration: none;
 }
 header a:hover{
-    color: #750000;
+    color:#f3bb54;
 }
 
 h1 {
@@ -69,7 +72,6 @@ position: relative;
     animation-name: menu;
     animation-duration: 3s;
 
-
 }
 #resenha:hover {
     font-size: 90px;
@@ -80,7 +82,6 @@ position: relative;
     animation-name: menu;
     animation-duration: 3s;
     
-
 }
 
 #ilustracoes:hover {
@@ -146,10 +147,15 @@ position: relative;
     justify-content: center;
     border: 1px solid black;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 50px;
     
+}
+
+form {
+    margin: 50px;
 }
 aside {
     margin: 10px;
@@ -173,12 +179,6 @@ aside {
 .lista7 {background-color: rgba(255,255,166,0.5);
 }
 .lista8{background-color:rgba(255,180,191,0.5);}
-
-header a {
-    color: black;
-    text-decoration: none;
-}
-
 
 
 
@@ -206,7 +206,6 @@ a {text-decoration: none;
 .footer {
     background-color: white;
     color: black;
-    border: solid 1px;
     width: 100%;
     padding: 5px;
     bottom: 0%;
