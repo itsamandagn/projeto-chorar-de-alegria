@@ -47,12 +47,9 @@ li {
 }
 
 nav {
-
     position: relative;
     height: 100vh;
     overflow: hidden;
-    bottom: 0%;
-   
 
 }
 
@@ -65,7 +62,6 @@ overflow: hidden;
 display: block;
 text-align: right;
 margin-right: 0,5px;
-position: relative;
 }
 
 
