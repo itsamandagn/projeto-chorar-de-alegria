@@ -1,106 +1,102 @@
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  li {
-      font-size: 20px;
-    }
-    
-  a {
-      text-decoration: none;
-  }
-  header a { 
-      display: inline-flex;
-      flex-direction: row;
-      margin-left: 25%;
-      font-size: 30px;
-      font-weight: bolder;
-      color: #750000;
-  }
-  header a:hover {
-    color: #f3bb54;
-  }
-  
-  h1 {
-    margin-left: 10px;
-    margin-top: 0px;
-  }
-  
-  h2 {
-    margin: 10px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-   div {
-    display: flex;
+p {
+  font-size: 20px;
+}
 
-   }
-  .texto-principal {
-    display: inline-block;
-    justify-content: center;
-    width: 70%;
-    margin: 10px 10px 20px 40px;
-    padding: 50px;
-  }
+li {
+  font-size: 20px;
+}
 
-  .aside-youtube {
-    font-weight: bolder;
-  }
-  .aside-kindle {
-    font-weight: bolder;
-    justify-content: center;
-  }
-  .img-resenha {
-    margin-top: 10px;
-    height: 500px;
-    width: 500px;
-  }
-  .ilustradora {
-    color: black;
-    text-decoration: underline;
-  }
-  .ilustradora:hover {
-    color: #750000;
-  
-    text-decoration: underline;
-  }
-  
-  form {
-    margin: 10px 0px 20px 85px ;
-  }
+a {
+  text-decoration: none;
+}
 
-  aside {
-    margin: 10px;
-    width: 30%;
-  }
+h1 {
+  margin-left: 10px;
+  margin-top: 0px;
+}
 
-  .footer {
-    display: flex;
-    flex-direction:row;
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    width: 100%;
-    height: 5%;
-    justify-content: center;
-    z-index: 1;
-  }
+h2 {
+  margin: 10px;
+}
 
-  footer li {
-    font-size: 18px;
-    list-style: none;
-    display: inline-flex;
-  }
-  
-  footer img {
-    width: 30px;
-    height: auto;
-  }
-  
-  footer a {
-    color: #750000;
-  }
+header a {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #750000;
+}
+header a:hover {
+  color: #f3bb54;
+}
+
+div {
+  display: flex;
+}
+
+.texto-principal {
+  display: inline-block;
+  justify-content: center;
+  width: 70%;
+  margin: 5px 10px 10px 20px;
+  padding: 40px;
+}
+
+.img-resenha {
+  margin-top: 10px;
+  height: 500px;
+  width: 500px;
+}
+.ilustradora {
+  color: black;
+  text-decoration: underline;
+}
+.ilustradora:hover {
+  color: #750000;
+
+  text-decoration: underline;
+}
+
+form {
+  margin: 10px 0px 20px 70px;
+}
+
+aside {
+  margin: 10px;
+  width: 30%;
+  font-weight: bolder;
+  justify-content: right;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  width: 100%;
+  height: 5%;
+  justify-content: center;
+  z-index: 1;
+}
+
+footer li {
+  font-size: 18px;
+  list-style: none;
+  display: inline-flex;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+footer a {
+  color: #750000;
+}

@@ -15,9 +15,9 @@
       text-decoration: none;
   }
   header a { 
-      display: inline-flex;
+      display: flex;
       flex-direction: row;
-      margin-left: 25%;
+      justify-content:center;
       font-size: 30px;
       font-weight: bolder;
       color: #750000;
@@ -35,64 +35,65 @@
     margin: 10px;
   }
   
-  .imagens-container {
-    position: relative;
+  #imagens-container {
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
     height: 500px;
     width: 500px;
-    margin-top: 30px;
-    margin-bottom: 200px;
-  }
+    margin-top: 20px;
+    margin-bottom: 220px;
+    justify-content: space-between;
+    gap: 5px;
   
+  }
+
+
   .imagem1:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem2:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem3:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem4:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem5:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem6:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 800px;
   }
   .imagem7:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700;
   }
   .imagem8:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem9:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem10:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem11:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
   .imagem12:hover {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
 
   .footer {
