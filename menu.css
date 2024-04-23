@@ -10,26 +10,28 @@ a {
 }
 
 body {
+  background-image: url("imagenslivro/backgroundpeb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 100vh;
+  width: 100%;
+
 }
 
 #menu {
-  background-image: url("imagenslivro/backgroundpeb.png");
-  height: 100vh;
-  align-items: end;
-  background-position: 100%;
-  background-repeat: no-repeat;
+  height: 96%;
+  align-content:flex-end;
+  justify-content: space-evenly;
   text-align: right;
-  background-size: cover;
-  margin: 0%;
+  background-color: rgba(255, 255, 166, 0.3);
+
 }
 
 .resenha {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  padding: 15px;
-  height: max-content;
+  /* height: 16%; */
   background-color: rgba(255, 255, 166, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -42,8 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  height: max-content;
-  padding: 15px;
+  /* height: 16%; */
   background-color: rgba(255, 180, 191, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -56,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  padding: 15px;
+  /* height: 16%; */
   background-color: rgba(255, 179, 71, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -70,7 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  padding: 15px;
+  /* height: 16%; */
   background-color: rgba(71, 255, 179, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -84,7 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  padding: 15px;
+  /* height: 16%; */
   background-color: rgba(117, 199, 255, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -98,8 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  padding: 20px;
-  overflow: hidden;
+  height: 16%;
   background-color: rgba(216, 124, 250, 0.5);
   animation-name: menu;
   animation-duration: 3s;
@@ -119,11 +119,8 @@ body {
   }
 }
 
-body {
-  height: 100vh;
-}
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (min-width: 1280px) {
   body {
     height: 100vh;
   }
@@ -134,15 +131,17 @@ body {
     height: 95%;
     width: 100vh;
   }
-}
+} */
 
 .footer {
   display: inline-flex;
   justify-content: center;
+  align-content: flex-end;
+  height: 4%;
+  width: 100%;
   background-color: white;
   color: black;
-  width: 100%;
-  z-index: 2;
+  z-index: 1;
 }
 
 footer li {
