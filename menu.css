@@ -15,16 +15,14 @@ body {
   background-size: contain;
   height: 100vh;
   width: 100%;
-
 }
 
 #menu {
   height: 96%;
-  align-content:flex-end;
+  align-content: flex-end;
   justify-content: space-evenly;
   text-align: right;
-  background-color: rgba(255, 255, 166, 0.3);
-
+  background-color: rgba(255, 255, 166, 0.5);
 }
 
 .resenha {
@@ -32,9 +30,8 @@ body {
   flex-direction: column;
   font-size: 70px;
   /* height: 16%; */
-  background-color: rgba(255, 255, 166, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 .resenha:hover {
   font-size: 90px;
@@ -47,7 +44,7 @@ body {
   /* height: 16%; */
   background-color: rgba(255, 180, 191, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .ilustracoes:hover {
@@ -60,7 +57,7 @@ body {
   /* height: 16%; */
   background-color: rgba(255, 179, 71, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .autoras:hover {
@@ -74,7 +71,7 @@ body {
   /* height: 16%; */
   background-color: rgba(71, 255, 179, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .ondecomprar:hover {
@@ -88,7 +85,7 @@ body {
   /* height: 16%; */
   background-color: rgba(117, 199, 255, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .youmightlike:hover {
@@ -99,10 +96,10 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 70px;
-  height: 16%;
+  /* height: 16%; */
   background-color: rgba(216, 124, 250, 0.5);
   animation-name: menu;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .aboutme:hover {
@@ -118,20 +115,6 @@ body {
     clip-path: inset(0 0 0);
   }
 }
-
-
-/* @media only screen and (min-width: 1280px) {
-  body {
-    height: 100vh;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-    height: 95%;
-    width: 100vh;
-  }
-} */
 
 .footer {
   display: inline-flex;
@@ -158,4 +141,51 @@ footer img {
 footer a {
   color: #750000;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: none;
+    justify-content: flex-end;
+    margin: 0%;
+  }
+
+  .resenha{
+    font-size: 50px;
+  }
+  .ilustracoes {
+    font-size: 50px;
+  }
+  .autoras {
+    font-size: 50px;
+  }
+  .ondecomprar {
+    font-size: 50px;
+  }
+  .youmightlike {
+    font-size: 50px;
+  }
+  .aboutme {
+    font-size: 50px;
+  }
+
+  footer {
+    align-content: flex-end;
+    height: 2%;
+    margin: 0%;
+  }
+
+
+}
+
+@media only screen and (min-width: 760px) {
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: none;
+    justify-content: flex-end;
+    margin: 0%;
+  }
 }

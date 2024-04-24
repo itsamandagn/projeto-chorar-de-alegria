@@ -53,16 +53,16 @@
     margin-bottom: 20px;
   }
 
-  .lista1 {
+  .lista1 button :hover {
     background-color: rgba(255, 255, 166, 0.5);
   }
-  .lista2 {
+  .lista2 button :hover{
     background-color: rgba(255, 180, 191, 0.5);
   }
-  .lista3 {
+  .lista3 button :hover{
     background-color: rgba(255, 179, 71, 0.5);
   }
-  .lista4 {
+  .lista4 button :hover{
     background-color: rgba(71, 255, 179, 0.5);
   }
 
@@ -72,7 +72,13 @@
   text-align: left;
 }
 
-
+button {
+  border-radius: 10%;
+  border-style: double;
+  padding: 10px;
+  background-color: white;
+  
+}
   .footer {
     display: flex;
     flex-direction:row;
@@ -99,4 +105,30 @@
   footer a {
     color: #750000;
   }
+
+ @media only screen and (max-width: 1279px) {
+  div {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (2,1fr);
+    grid-template-areas: 
+    "lista"
+    "imgondecomprar";
+    gap: 20px;
+  }
+  #img-ondecomprar {
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    justify-self: auto;
+  }
+
+  footer {
+    align-content: flex-end;
+    height: 2%;
+    margin: 0%;
+    justify-content: center;
+  }
+
+ }
+
   
