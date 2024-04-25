@@ -47,28 +47,6 @@ h2 {
   gap: 10px;
 }
 
-.lista5 {
-  background-color: rgba(117, 199, 255, 0.5);
-  overflow: hidden;
-}
-.lista6 {
-  background-color: rgba(216, 124, 250, 0.5);
-  overflow: hidden;
-}
-.lista7 {
-  background-color: rgba(255, 255, 166, 0.5);
-  overflow: hidden;
-}
-.lista8 {
-  background-color: rgba(255, 180, 191, 0.5);
-  overflow: hidden;
-}
-
-.lista-gostar {
-  font-size: 20px;
-  margin: 10px;
-}
-
 
 .footer {
     display: flex;
@@ -80,6 +58,7 @@ h2 {
     height: 5%;
     justify-content: center;
     z-index: 1;
+    align-content:flex-end;
   }
 
   footer li {
