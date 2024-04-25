@@ -46,8 +46,8 @@
     margin-left: 10px;
    }
   #img-ondecomprar {   
-    height: 500px;
-    width: 700px;
+    height: 400px;
+    width: 600px;
     grid-area: imgondecomprar;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -116,11 +116,13 @@ button {
     gap: 20px;
   }
   #img-ondecomprar {
-    height: 300px;
-    width: 450px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
     justify-self: auto;
   }
+  #selecao {
+    margin-left: 20px;
 
   footer {
     align-content: flex-end;
