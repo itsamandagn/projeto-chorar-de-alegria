@@ -142,7 +142,8 @@ footer a {
     display: flex;
     padding: 20px;
     height: 100%;
-    margin-left:5%;
+    justify-content:center;
+    margin-left:2%;
     position: relative;
     touch-action: pan-y;
 
