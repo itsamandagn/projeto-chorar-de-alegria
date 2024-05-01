@@ -1,27 +1,37 @@
+
 * {
   margin: 0px;
   padding: 0px;
 }
+body {
+  font-family:  "Tinos", serif;
+}
 
+h1 {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-weight: bolder;
+  font-size: 35px;
+}
+ 
 p {
   font-size: 20px;
+  
 }
 
 li {
-  font-size: 20px;
+  font-size: 20px;  
 }
 
 a {
   text-decoration: none;
 }
 
-h1 {
-  margin-left: 10px;
-  margin-top: 0px;
-}
 
 h2 {
   margin: 10px;
+
+
 }
 
 header a {
@@ -63,8 +73,16 @@ div {
   text-decoration: underline;
 }
 
-form {
+.form-floating {
   margin: 10px 0px 20px 70px;
+  position: relative;
+}
+
+button {
+  border-radius: 10%;
+  border-style:normal;
+  padding: 5px;
+  background-color: white;
 }
 
 aside {
@@ -102,7 +120,12 @@ footer a {
 }
 
 
-@media only screen and (max-width: 759px) {
+@media only screen and (max-width: 1240px) {
+  
+  h1 {
+    margin: 20px;
+  }
+  
   div {
     flex-wrap: wrap;
   
@@ -113,7 +136,11 @@ footer a {
     height: 300px;
   }
 
-  form {
-    margin: 10px 0px 20px 20px;
+  .form-floating {
+    margin: 10px 0px 20px 25px;
+  }
+
+  aside {
+    margin: 25px;
   }
   }

@@ -152,7 +152,7 @@ footer a {
     margin: 0%;
   }
 
-  .resenha{
+  .resenha {
     font-size: 50px;
   }
   .ilustracoes {
@@ -176,11 +176,7 @@ footer a {
     height: 2%;
     margin: 0%;
   }
-
-
 }
-
-
 
 @media only screen and (min-width: 760px) {
   body {
