@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Tinos';
 }
 
 p {
@@ -38,6 +39,7 @@ div {
   justify-content: space-around;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "lista imgondecomprar";
+  min-height: 100vh;
 }
 
 #selecao {
@@ -87,6 +89,7 @@ button {
   height: 5%;
   justify-content: center;
   z-index: 1;
+  align-items: flex-end;
 }
 
 footer li {

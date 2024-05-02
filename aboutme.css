@@ -1,7 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Tinos';
 }
+
 
 p {
   font-size: 20px;
@@ -41,6 +43,7 @@ h2 {
   flex-direction: column;
   margin: 10px;
   padding: 10px;
+  min-height: 100vh;
 }
 .contato {
   display: flex;
@@ -59,7 +62,6 @@ h2 {
     height: 5%;
     justify-content: center;
     z-index: 1;
-    align-content:flex-end;
   }
 
   footer li {
@@ -75,4 +77,5 @@ h2 {
   
   footer a {
     color: #750000;
+    align-items: flex-end;
   }

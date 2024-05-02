@@ -5,6 +5,7 @@
 }
 body {
   font-family: 'Tinos';
+  min-height: 100vh;
 }
 
 h1 {
@@ -30,6 +31,7 @@ a {
 
 h2 {
   margin: 10px;
+  justify-content: center;
 
 
 }

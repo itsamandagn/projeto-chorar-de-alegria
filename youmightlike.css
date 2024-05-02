@@ -16,6 +16,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 header a {
   display: flex;
   flex-direction: row;
@@ -47,6 +48,7 @@ div {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Tinos';
 }
 
 .lista5:hover {
@@ -83,7 +85,6 @@ button {
   height: 5%;
   justify-content: center;
   z-index: 1;
-  align-items: flex-end;
 }
 
 footer li {
