@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Tinos';
+  font-family: "Tinos";
 }
 
 p {
@@ -61,6 +61,10 @@ div {
   height: 5%;
   justify-content: center;
   z-index: 1;
+}
+
+footer ul {
+  margin: 10px;
 }
 
 footer li {

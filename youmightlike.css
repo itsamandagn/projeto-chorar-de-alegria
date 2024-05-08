@@ -48,7 +48,7 @@ div {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Tinos';
+  font-family: "Tinos";
 }
 
 .lista5:hover {
@@ -85,6 +85,10 @@ button {
   height: 5%;
   justify-content: center;
   z-index: 1;
+}
+
+footer ul {
+  margin: 10px;
 }
 
 footer li {

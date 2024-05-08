@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Tinos';
+  font-family: "Tinos";
 }
 
 p {
@@ -90,6 +90,10 @@ button {
   justify-content: center;
   z-index: 1;
   align-items: flex-end;
+}
+
+footer ul {
+  margin: 10px;
 }
 
 footer li {
