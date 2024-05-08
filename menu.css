@@ -19,7 +19,7 @@ body {
 }
 
 #menu {
-  height: 96%;
+  height: 94%;
   align-content: flex-end;
   justify-content: space-evenly;
   text-align: right;
@@ -121,16 +121,14 @@ body {
   display: inline-flex;
   justify-content: center;
   align-content: flex-end;
-  height: 4%;
+  height: 6%;
   width: 100%;
   background-color: white;
   color: black;
   z-index: 1;
 }
 
-footer ul {
-  margin: 10px;
-}
+
 
 footer li {
   font-size: 18px;
