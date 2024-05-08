@@ -105,20 +105,19 @@ aside {
 
 footer ul {
   margin: 8px;
-  display: flex;
-  align-items: flex-end;
 }
 
 footer li {
   font-size: 18px;
   list-style: none;
   display: inline-flex;
+  align-items: flex-end;
 }
 
 footer img {
   width: 30px;
   height: auto;
-  margin-bottom: 3px;
+ margin-bottom: 8px;
 }
 
 footer a {
@@ -158,5 +157,9 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  footer ul {
+    align-items: center;
   }
 }

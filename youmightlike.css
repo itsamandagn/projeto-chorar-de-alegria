@@ -89,6 +89,8 @@ button {
 
 footer ul {
   margin: 10px;
+  align-items: center;
+
 }
 
 footer li {

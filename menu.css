@@ -128,7 +128,9 @@ body {
   z-index: 1;
 }
 
-
+footer ul {
+  align-items: center;
+}
 
 footer li {
   font-size: 18px;
