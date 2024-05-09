@@ -98,13 +98,13 @@ aside {
   color: black;
   font-size: 15px;
   width: 100%;
-  height: 5%;
   justify-content: center;
   z-index: 1;
 }
 
 footer ul {
-  margin: 10px;
+  display: flex;
+  margin:0;
   padding: 0;
   align-items: center;
 }
@@ -113,6 +113,7 @@ footer li {
   font-size: 18px;
   list-style: none;
   display: inline-flex;
+  padding: 0;
 }
 
 footer img {
@@ -131,6 +132,12 @@ footer a {
 
   div {
     flex-wrap: wrap;
+  }
+  .texto-principal {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
   }
 
   .img-resenha {

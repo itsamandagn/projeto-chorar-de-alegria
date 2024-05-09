@@ -56,12 +56,13 @@ h1 {
   height: 5%;
   justify-content: center;
   z-index: 1;
+  align-items: flex-end;
 }
 
 footer ul {
-  margin: 10px;
+  margin:0;
+  padding: 0;
   align-items: center;
-
 }
 
 footer li {
@@ -77,5 +78,4 @@ footer img {
 
 footer a {
   color: #750000;
-  align-items: flex-end;
 }
